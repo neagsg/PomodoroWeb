@@ -1,7 +1,8 @@
 import React from 'react';
+import { PomodoroTimer } from './components/pomodoroTimer';
 
-const App: React.FC = () => {
-  return <h1>Pomodoro</h1>;
-};
+function App(): JSX.Element {
+  return <PomodoroTimer defaultPomodoroTime={3600} />;
+}
 
 export default App;
