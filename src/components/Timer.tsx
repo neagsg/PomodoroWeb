@@ -5,7 +5,7 @@ interface TimerProps {
 }
 
 function Timer({ mainTime }: TimerProps): JSX.Element {
-  return <h2>{secondsToTime(mainTime)}</h2>;
+  return <div className="timer">{secondsToTime(mainTime)}</div>;
 }
 
 export default Timer;
